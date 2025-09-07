@@ -1,0 +1,5 @@
+{
+  "name": "MedX Tutor",
+  "description": "An AI-powered medical education assistant that generates realistic, synthetic radiographic X-ray images from natural language requests. Ideal for students learning to interpret medical imaging.",
+  "requestFramePermissions": []
+}
