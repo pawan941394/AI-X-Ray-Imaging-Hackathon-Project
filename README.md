@@ -25,7 +25,7 @@
 
 
 
-**Problem Statement:**  
+## Problem Statement:  
 Medical trainees and students often lack truly interactive hands-on tools for learning X-ray interpretation. Traditional resources are static, costly, or inaccessible, limiting the quality and confidence of real-world training.
 
 MedX Tutor solves this by using generative AI to provide instant, interactive synthetic X-rays and explanations—bringing the magic of practical radiology labs to any learner, anywhere.
