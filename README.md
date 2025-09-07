@@ -23,6 +23,18 @@
 
 ---
 
+
+
+**Problem Statement:**  
+Medical trainees and students often lack truly interactive hands-on tools for learning X-ray interpretation. Traditional resources are static, costly, or inaccessible, limiting the quality and confidence of real-world training.
+
+MedX Tutor solves this by using generative AI to provide instant, interactive synthetic X-rays and explanations—bringing the magic of practical radiology labs to any learner, anywhere.
+
+## Overview
+MedX Tutor is a next-generation educational platform that uses Gemini AI to generate synthetic, annotated X-rays from natural language prompts. Students can...
+
+
+
 ## ✨ Introduction
 
 MedX Tutor is a cutting-edge educational tool designed to bridge the gap between theoretical medical knowledge and practical radiographic interpretation. Powered by Google's Gemini AI, it allows medical students, residents, and educators to:
