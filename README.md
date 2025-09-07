@@ -95,6 +95,18 @@ Click anywhere on the image to open the Explorer. The AI (`gemini-2.5-flash-imag
   <img src="https://via.placeholder.com/800x550.png?text=Screenshot+of+Image+Explorer" alt="Image Explorer Feature" width="700">
 </p>
 
+## 🤖 Gemini Integration
+
+MedX Tutor leverages a sophisticated, multi-model approach using Google's Gemini API to deliver its powerful educational features. Gemini is not just a single component but the core intelligent engine that drives every aspect of the learning experience.
+
+-   **Text & Logic (`gemini-2.5-flash`):** The versatile and fast `gemini-2.5-flash` model handles all language-based tasks. It interprets a user's plain-language request (in English or Hindi) and transforms it into a precise clinical prompt. It then generates structured, beginner-friendly medical explanations and creates contextually relevant multiple-choice quizzes to test the user's understanding. This same model powers the conversational AI, enabling students to ask follow-up questions in a natural chat interface.
+
+-   **Image Generation (`imagen-4.0-generate-001`):** The core visual component—the synthetic X-ray itself—is created by `imagen-4.0-generate-001`. This state-of-the-art image generation model takes the detailed clinical prompt and renders a high-fidelity, realistic radiographic image, complete with the specified anatomy and pathology.
+
+-   **Multimodal Analysis (`gemini-2.5-flash-image-preview`):** The innovative "Image Explorer" feature is powered by the multimodal capabilities of `gemini-2.5-flash-image-preview`. When a user points to a specific area on an X-ray, this model analyzes the visual input alongside the implicit query. It then generates both a targeted textual explanation of the selected region and a brand new, annotated diagram to visually clarify the finding.
+
+This strategic use of different Gemini models allows MedX Tutor to provide a seamless, rich, and deeply interactive educational workflow.
+
 ## 💻 Tech Stack
 
 -   **Frontend:** React, TypeScript, Tailwind CSS
