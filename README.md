@@ -1,13 +1,13 @@
 <!-- LOGO -->
 <div align="center">
-  <img src="https://via.placeholder.com/80x80.png?text=Logo" alt="Logo" width="80" height="80">
+  <img src="./repo_images/logo.png" alt="Logo" >
   <h1 align="center">MedX Tutor</h1>
   <p align="center">
     An AI-powered medical imaging assistant for students and educators.
     <br />
     <br />
     <!-- TODO: Add your live demo link here -->
-    <a href="#"><strong>Explore the Live Demo »</strong></a>
+    <a href="https://www.youtube.com/watch?v=85wIQd-4EEg"><strong>Explore the Live Demo »</strong></a>
     <br />
     <br />
   </p>
@@ -54,13 +54,13 @@ _**Note:** These are placeholder GIFs. Create your own screen recordings (we rec
 
 Simply describe the patient's condition, set the age and gender, and watch the AI bring it to life.
 
-![Generate Workflow Demo](https://via.placeholder.com/800x450.gif?text=Your+Generate+Workflow+GIF+Here)
+![Generate Workflow Demo](/repo_images/1.png)
 
 ### 2. Uploading and Analyzing an Existing X-Ray
 
 Upload an image from your computer, and the AI will provide a full analysis, explanation, and quiz.
 
-![Upload Workflow Demo](https://via.placeholder.com/800x450.gif?text=Your+Upload+Workflow+GIF+Here)
+![Upload Workflow Demo](/repo_images/2.png)
 
 
 ## 🛠️ How It Works: A Deeper Look
@@ -71,28 +71,28 @@ _**Note:** Replace the placeholder URLs below with actual screenshots of your ap
 The user provides a simple description. MedX Tutor uses `gemini-2.5-flash` to refine this into a detailed clinical prompt, which is then passed to `imagen-4.0-generate-001` to create the X-ray image.
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x500.png?text=Screenshot+of+Input+Screen" alt="Input Screen" width="700">
+  <img src="./repo_images/3.png" alt="Input Screen" width="700">
 </p>
 
 #### 2. Analysis & Explanation
 Once an image is generated or uploaded, the AI provides a comprehensive breakdown, including the clinical prompt and a structured medical explanation.
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x600.png?text=Screenshot+of+Explanation+Screen" alt="Explanation Screen" width="700">
+  <img src="./repo_images/4.png" alt="Explanation Screen" width="700">
 </p>
 
 #### 3. Interactive Learning Tools
 Reinforce your learning with automatically generated quizzes and a contextual chat assistant that knows the specifics of the current X-ray.
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=Screenshot+of+Quiz+Feature" alt="Quiz Feature" width="700">
+  <img src="./repo_images/5.png" alt="Quiz Feature" width="700">
 </p>
 
 #### 4. Image Explorer (Point-and-Ask)
 Click anywhere on the image to open the Explorer. The AI (`gemini-2.5-flash-image-preview`) analyzes the specific point, provides a targeted explanation, and generates a new, annotated diagram for clarity.
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x550.png?text=Screenshot+of+Image+Explorer" alt="Image Explorer Feature" width="700">
+  <img src="./repo_images/6.png" alt="Image Explorer Feature" width="700">
 </p>
 
 ## 🤖 Gemini Integration
@@ -130,8 +130,8 @@ To get a local copy up and running, follow these simple steps.
 
 1.  **Clone the repo:**
     ```sh
-    git clone https://github.com/your_username/MedX-Tutor.git
-    cd MedX-Tutor
+    git clone https://github.com/pawan941394/AI-X-Ray-Imaging-Hackathon-Project.git
+    cd AI-X-Ray-Imaging-Hackathon-Project
     ```
 2.  **Install NPM packages:**
     ```sh
