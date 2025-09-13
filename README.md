@@ -77,7 +77,6 @@ Upload an image from your computer, and the AI will provide a full analysis, exp
 
 ## 🛠️ How It Works: A Deeper Look
 
-_**Note:** Replace the placeholder URLs below with actual screenshots of your application._
 
 #### 1. Input & Generation
 The user provides a simple description. MedX Tutor uses `gemini-2.5-flash` to refine this into a detailed clinical prompt, which is then passed to `imagen-4.0-generate-001` to create the X-ray image.
