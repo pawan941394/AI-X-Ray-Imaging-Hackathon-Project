@@ -60,7 +60,6 @@ This project aims to provide a safe and effective environment for honing diagnos
 
 Here’s a quick look at the two primary workflows in MedX Tutor.
 
-_**Note:** These are placeholder GIFs. Create your own screen recordings (we recommend using a tool like LICEcap or Kap) and replace the URLs below._
 
 ### 1. Generating an X-Ray from a Text Prompt
 
